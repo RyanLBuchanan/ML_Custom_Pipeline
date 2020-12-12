@@ -28,5 +28,5 @@ if __name__ == '__main__':
     pipeline.evaluate_model()
     print()
     print('Some predictions:')
-    preditions = pipeline.predict(data)
-    print(preditions)
+    predictions = pipeline.predict(data)
+    print(predictions)

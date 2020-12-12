@@ -183,7 +183,7 @@ class Pipeline:
         self.X_test[self.numerical_log] = np.log(self.X_test[self.numerical_log])
         
         
-        # find frequent labesl
+        # find frequent labels
         self.find_frequent_categories()
         
         # remove rare labels
